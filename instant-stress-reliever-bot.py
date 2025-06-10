@@ -170,7 +170,7 @@ def generate_stress_relief_report(user_stress_inputs):
 
 def main() -> None:
     # Page config
-    st.set_page_config(page_title="Instant Stress Reliever Bot", page_icon="🌿", layout="wide")
+    st.set_page_config(page_title="Instant Stress Reliever Bot", page_icon="💆", layout="wide")
 
     # Custom styling
     st.markdown(
@@ -191,7 +191,7 @@ def main() -> None:
     )
 
     # Header and intro
-    st.markdown("<h1 style='font-size: 2.5rem;'>🌿 Instant Stress Reliever Bot</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='font-size: 2.5rem;'>💆 Instant Stress Reliever Bot</h1>", unsafe_allow_html=True)
     st.markdown(
         "Welcome to Instant Stress Reliever Bot — a therapeutic Streamlit companion that interprets your mood, applies cognitive reframing, and delivers uplifting responses with soothing visuals to ease anxiety and restore emotional balance.",
         unsafe_allow_html=True
