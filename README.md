@@ -92,7 +92,7 @@ Instant-Stress-Reliever-Bot/
 * **`render_sidebar()`**: Handles secure input and storage of API keys for OpenAI and Giphy.
 * **`generate_stress_relief_report()`**:
 
-  * Uses the Emotional Reframe Agent to generate 5 CBT-style support paragraphs.
+  * Uses the Emotional Reframe Agent to generate CBT-style support paragraphs.
   * Enhances each with an emotionally sensitive GIF using the Visual Enricher Agent.
 * **`main()`**: Manages layout, user interaction, report generation, and rendering.
 
