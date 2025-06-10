@@ -1,8 +1,6 @@
 # Instant Stress Reliever Bot
 
-Instant Stress Reliever Bot is a therapeutic Streamlit application designed to help users cope with stress and anxiety in the moment. Powered by [Agno](https://github.com/agno-agi/agno), OpenAI's GPT-4o, and Giphy, this bot uses cognitive reframing techniques to transform emotionally heavy reflections into comforting, supportive paragraphs—each paired with a carefully selected, emotionally safe GIF.
-
-
+Instant Stress Reliever Bot is a therapeutic Streamlit application designed to help users cope with stress and anxiety in the moment. Powered by [Agno](https://github.com/agno-agi/agno), OpenAI's GPT-4o, and Giphy, this bot uses cognitive reframing techniques to transform emotionally heavy reflections into comforting, supportive paragraphs—each paired with a carefully selected, emotionally safe (well, not so safe. we are still refining this aspect) GIF.
 
 ## Folder Structure
 
