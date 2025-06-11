@@ -151,7 +151,7 @@ def generate_stress_relief_report(user_stress_inputs):
 
     # Append GIFs to each paragraph
     final_paragraphs = []
-    for para in paragraphs:
+    for para in paragraphs[:-1]:
         gif_prompt = f"""
         Paragraph: {para}
         Tone: {response_tone}
@@ -161,6 +161,8 @@ def generate_stress_relief_report(user_stress_inputs):
         gif_url = enricher_agent.run(gif_prompt).content.strip()
         para_with_gif = f"{para}\n\n![gif]({gif_url})"
         final_paragraphs.append(para_with_gif)
+
+    final_paragraphs.append(paragraphs[-1])
 
     # Join all into one markdown-formatted report
     final_report = "\n\n".join(final_paragraphs)
